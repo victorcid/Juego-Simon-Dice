@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  background: #2c3e50;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+
+}
+.header{
+  width: 100%;
+  margin: auto;
+  margin-bottom: -100px;
+  position: fixed;
+  font-family: "Lucida Console";
+  top: 0;
+  text-align: center;
+}
+.header > h1{
+  margin: 1px;
+  font-size: 3em;
+  font-style:normal;;
+  font-weight:800;
+
+}
+span{
+  background-color: #2c3e50 !important;
+  margin-left: -20px;
+}
+#espacio{
+  margin-left: 40px
+}
+.header > h2{
+  margin: 0 10px 0 0;
+  font-size: 2em;
+  color: #f0c32b;
+  display: inline-block;
+}
+
+
+.gameboard {
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 5vh;
+  max-height: 60vh;
+  max-width: 60vh;
+}
+.circulo {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#timerRing{
+    width:75vh;
+    height: 75vh;
+    background: #2c3e50;
+}
+
+#backCircul{
+  width:70vh;
+  height: 70vh;
+  margin-top: 2.5vh;
+  background: #2c3e50;
+}
+
+.color {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: left;
+}
+.celeste {
+  background: #22a6b3;
+}
+.celeste.light {
+  background: #7ed6df;
+}
+.violeta {
+  background: #be2edd;
+}
+.violeta.light {
+  background: #e056fd;
+}
+.naranja {
+  background: #f0932b;
+  color: #f0932b;
+}
+.naranja.light {
+  background: #ffbe76;
+}
+.verde {
+  background: #6ab04c;
+  color: #6ab04c;
+}
+.verde.light {
+  background: #badc58;
+}
+.azul{
+  background: #2b7bf0;
+  color: #2b7bf0;
+}
+.amarillo{
+  background: #f0c32b;
+  color: #f0c32b;
+}
+.hide {
+  display: none;
+}
+.btn-start {
+cursor: pointer;
+width: 420px;
+height: 100px;
+background: #ecf0f1;
+color: #2c3e50;
+border: none;
+border-bottom: 4px solid #c4c6c7;
+border-radius: 8px;
+font-size: 3em;
+position: absolute;
+top: calc(50% - 50px);
+left: calc(50% - 210px);
+transition: .5s;
+outline: none;
+}
+
+.btn-start:hover {
+color: #ecf0f1;
+background: #2c3e50;
+border-bottom: 4px solid #1f3346;
+}
+
+.btn-start:active {
+transform: scale(.95);
+}

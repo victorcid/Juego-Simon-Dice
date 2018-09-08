@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        <span class="azul">S</span>
+        <span class="naranja">I</span>
+        <span class="amarillo">M</span>
+        <span class="verde">O</span>
+        <span class="naranja">N</span>
+        <span id="espacio"> </span>
+        <span class="amarillo">D</span>
+        <span class="verde">I</span>
+        <span class="naranja">C</span>
+        <span class="azul">E</span>
+      </h1>
+      <h2>NIVEL</h2><h2 id='nivelDisplay'>1</h2>
+    </div>
+    <div class="circulo" id="timerRing">
+      <div class="circulo" id="backCircul">
+        <div class="gameboard">
+          <div id="celeste" class="color celeste left" data-color="celeste"></div>
+          <div id="violeta" class="color violeta right" data-color="violeta"></div>
+          <div id="naranja" class="color naranja left" data-color="naranja"></div>
+          <div id="verde" class="color verde right" data-color="verde"></div>
+          <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+        </div>
+      </div>
+    </div>
+  <script src="./test.js"></script>
+  </body>
+</html>
